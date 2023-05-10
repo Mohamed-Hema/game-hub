@@ -25,3 +25,6 @@ dist-ssr
 
 .gitignore
 .tsconfig.json
+.vercel
+.api-client.ts
+.image-url.ts
