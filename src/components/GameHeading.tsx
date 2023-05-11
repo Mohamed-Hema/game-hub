@@ -4,7 +4,7 @@ import { GameQuery } from "../App";
 interface Props {
   gameQuery: GameQuery;
 }
-
+//Game Heading
 const GameHeading = ({ gameQuery }: Props) => {
   const heading = `${gameQuery.platform?.name || ""} ${
     gameQuery.genre?.name || ""
